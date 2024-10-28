@@ -1,0 +1,87 @@
+﻿@model ShoppingCart
+@{
+	Layout = "_ShoppingCartLayout";
+	decimal OderDetail = 0;
+}
+<section class="vh-100">
+	<div class="container h-100">
+		<div class="row">
+			<div class="col shoppingCart">
+				<h1>Giỏ Hàng</h1>
+				@foreach (var item in Model.Items)
+				{
+					<div class="card mb-4">
+						<div class="card-body p-4">
+
+							<div class="row align-items-center">
+								<div class="col-md-2">
+									<img src="@item.Image"
+										 class="img-fluid" alt="Generic placeholder image">
+								</div>
+								<div class="col-md-2 d-flex justify-content-center">
+									<div>
+										<p class="small text-muted mb-4 pb-2">Name</p>
+										<p class="lead fw-normal mb-0">@item.Name</p>
+									</div>
+								</div>
+								<div class="col-md-2 d-flex justify-content-center">
+									<div>
+										<p class="small text-muted mb-4 pb-2">Quantity</p>
+										<form asp-controller="ShoppingCart" asp-action="AddToCart" method="post">
+											<input type="hidden" name="productId" value="@item.Id" />
+											<input type="number" id="quantity" name="quantity" value="@item.Quantity" />
+											<button class="btn btn-info" type="submit">
+												Cap nhat
+											</button>
+										</form>
+									</div>
+								</div>
+								<div class="col-md-2 d-flex justify-content-center">
+									<div>
+										<p class="small text-muted mb-4 pb-2">Giá</p>
+										<p class="lead fw-normal mb-0">@item.Price</p>
+									</div>
+								</div>
+
+								<div class="col-md-2 d-flex justify-content-center">
+									<div>
+										<p class="small text-muted mb-4 pb-2">Tổng</p>
+										<p class="lead fw-normal mb-0">@(item.Price * item.Quantity)</p>
+									</div>
+								</div>
+								<div class="col-md-2 box">
+									<a asp-controller="Product" asp-action="Details" asp-route-id="@item.Id">
+										<button type="button" class="btn btn-success btn-lg me-2" style="width: 150px">Chi Tiết</button>
+									</a><br><br>
+									<a asp-controller="ShoppingCart" asp-action="RemoveFromCart" asp-route-productId="@item.Id">
+										<button type="button" class="btn btn-success btn-lg me-2" style="width: 150px">Xóa</button>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					OderDetail += item.Price * item.Quantity;
+				}
+				<div class="card mb-5">
+					<div class="card-body p-4">
+						<div class="float-end">
+							<p class="mb-0 me-5 d-flex align-items-center">
+								<span class="small text-muted me-2">Tổng Hóa Đơn: @OderDetail</span> <span class="lead fw-normal"></span>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="d-flex justify-content-end">
+					<a asp-action="Checkout">
+						<button type="button" class="btn btn-success btn-lg me-2">Đặt Hàng</button>
+					</a>
+
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+

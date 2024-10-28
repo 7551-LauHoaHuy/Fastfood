@@ -1,0 +1,76 @@
+﻿@using Lab04_TruongThanhDat.Repositories;
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser > UserManager
+
+@* 
+<ul class="navbar-nav">
+	@if (SignInManager.IsSignedIn(User))
+	{
+		var user = await UserManager.GetUserAsync(User);
+		<li class="nav-item	">
+			<a id="manage" class="nav-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"><i class="fa-regular fa-user"></i> @UserManager.GetUserName(User)!</a>
+		</li>
+
+
+		@if (await UserManager.IsInRoleAsync(user, "Admin"))
+		{
+			<li class="nav-item">
+				<a id="manage" class="nav-link " asp-area="Admin" asp-controller="Admin" asp-action="Index">Bảng Điều Khiển Admin</a>
+			</li>
+		}
+
+		<li class="nav-item">
+			<form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+				<button id="logout" type="submit" class="nav-link btn btn-link  border-0">Đăng xuất</button>
+			</form>
+		</li>
+	}
+	else
+	{
+		<li class="nav-item">
+			<a class="nav-link " id="register" asp-area="Identity" asp-page="/Account/Register">Đăng ký</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link " id="login" asp-area="Identity" asp-page="/Account/Login">Đăng nhập</a>
+		</li>
+	}
+</ul> *@
+<ul class="navbar-nav">
+	@if (SignInManager.IsSignedIn(User))
+	{
+		var user = await UserManager.GetUserAsync(User);
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+				<i class="fa-regular fa-circle-user" title="@UserManager.GetUserName(User)!"></i>
+			</a>
+			<ul class="dropdown-menu">
+				<li class="dropdown-item">
+					<a class="dropdown-item" asp-area="Identity" asp-page="/Account/Manage/Index">Quản lý tài khoản</a>
+				</li>
+				<li class="dropdown-item">
+					@if (await UserManager.IsInRoleAsync(user, "Admin"))
+					{
+						<a class="dropdown-item" asp-area="Admin" asp-controller="Admin" asp-action="Index">Quản lý sản phẩm</a>
+					}
+				</li>
+				<li class="dropdown-item">
+					<form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+						<button id="logout" type="submit" class="dropdown-item">Đăng xuất</button>
+					</form>
+				</li>
+			</ul>
+		</li>
+
+	}
+	else
+	{
+		<li class="nav-item">
+			<a class="nav-link " id="register" asp-area="Identity" asp-page="/Account/Register">Đăng ký</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link " id="login" asp-area="Identity" asp-page="/Account/Login">Đăng nhập</a>
+		</li>
+	}
+</ul>

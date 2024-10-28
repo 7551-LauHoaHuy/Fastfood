@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Lab04_TruongThanhDat.Models.Product>
+
+@{
+	ViewData["Title"] = "Menu";
+	Layout = "_LayoutMenu";
+	int numOfQuantity = 1;
+}
+
+<section class="food_section layout_padding-bottom">
+	<div class="container">
+		<div class="heading_container heading_center">
+			<h2 style="color: black">
+				Our Menu
+			</h2>
+		</div>
+
+		<div class="container px-4 px-lg-5 mt-5">
+			<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justifycontent-center">
+				@foreach (var item in Model)
+				{
+					<div class="box" style="margin-right: 30px; width: 300px">
+						<div>
+							<div class="img-box">
+								<img style="width: 145px; height: 145px; border-radius: 15px" src="@item.ImageUrl" alt="...">
+							</div>
+							<div class="detail-box">
+								<h5>
+									@Html.DisplayFor(modelItem => item.Name)
+								</h5>
+								<p>
+									@Html.DisplayFor(modelItem => item.Description)
+								</p>
+								<div class="options">
+									<span>Giá:</span>
+									<p class="mx-3"> @item.Price.ToString("#,##0") Vnđ</p>
+									<a class="cart" asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-productId="@item.Id" asp-route-quantity="@numOfQuantity">
+										<i class="fa-solid fa-cart-shopping cart-icon"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				}
+			</div>
+		</div>
+	</div>
+</section>
+

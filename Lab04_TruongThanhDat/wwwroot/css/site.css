@@ -1,0 +1,109 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+.nav-link{
+    color : white;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-label{
+    color: black;
+}
+
+.register_container {
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    padding: 100px;
+}
+
+.card-body.p-5 {
+   background: white;
+   border-radius: 15px;
+   border: 2px solid;
+}
+
+    .card-body.p-5.text-center {
+        background: black;
+        border-radius: 15px;
+        border: 2px solid;
+    }
+
+.login_container {
+/* fallback for old browsers */
+background: #6a11cb;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
+
+.form-group-input{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.col .shoppingCart{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+#showPassword {
+    
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translateY(-50%);
+    opacity: 1;
+    cursor: pointer;
+    margin-left:40px
+}
+
+.form-floating mb-3 {
+    position: relative;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.shoppingcart_container{
+    background: pink;
+}
+
+.card.gap-3 {
+    margin-bottom: 50px;
+    transition: transform 0.6s;
+}
+.card.gap-3:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    opacity: 0.5;
+}
+
+.cart-icon {
+    color: #222831;
+}
+a.cart:hover .cart-icon {
+    color: #f1f2f3;
+}

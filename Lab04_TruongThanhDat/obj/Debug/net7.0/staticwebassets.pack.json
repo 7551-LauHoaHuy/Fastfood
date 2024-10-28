@@ -1,0 +1,493 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Lab04_TruongThanhDat.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Lab04_TruongThanhDat.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Users\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Users\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\Users\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\css\\style.css",
+      "PackagePath": "staticwebassets\\Users\\css\\style.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\Users\\css\\style.css.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\css\\style.scss",
+      "PackagePath": "staticwebassets\\Users\\css\\style.scss"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Users\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Users\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Users\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\images\\about-img.png",
+      "PackagePath": "staticwebassets\\Users\\images\\about-img.png"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\images\\client1.jpg",
+      "PackagePath": "staticwebassets\\Users\\images\\client1.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\images\\client2.jpg",
+      "PackagePath": "staticwebassets\\Users\\images\\client2.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\images\\f1.png",
+      "PackagePath": "staticwebassets\\Users\\images\\f1.png"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\images\\f2.png",
+      "PackagePath": "staticwebassets\\Users\\images\\f2.png"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\images\\f3.png",
+      "PackagePath": "staticwebassets\\Users\\images\\f3.png"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\images\\f4.png",
+      "PackagePath": "staticwebassets\\Users\\images\\f4.png"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\images\\f5.png",
+      "PackagePath": "staticwebassets\\Users\\images\\f5.png"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\images\\f6.png",
+      "PackagePath": "staticwebassets\\Users\\images\\f6.png"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\images\\f7.png",
+      "PackagePath": "staticwebassets\\Users\\images\\f7.png"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\images\\f8.png",
+      "PackagePath": "staticwebassets\\Users\\images\\f8.png"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\images\\f9.png",
+      "PackagePath": "staticwebassets\\Users\\images\\f9.png"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\Users\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\images\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\Users\\images\\hero-bg.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\images\\o1.jpg",
+      "PackagePath": "staticwebassets\\Users\\images\\o1.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\images\\o2.jpg",
+      "PackagePath": "staticwebassets\\Users\\images\\o2.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Users\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\js\\custom.js",
+      "PackagePath": "staticwebassets\\Users\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\Users\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\Users\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\217926242_230573122115389_4483338893497483632_n.jpg",
+      "PackagePath": "staticwebassets\\images\\217926242_230573122115389_4483338893497483632_n.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\295787577_806817617142774_6232389725016035873_n.jpg",
+      "PackagePath": "staticwebassets\\images\\295787577_806817617142774_6232389725016035873_n.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\330004072_750343519777411_8321077070763279767_n.jpg",
+      "PackagePath": "staticwebassets\\images\\330004072_750343519777411_8321077070763279767_n.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\333773358_1489091114832716_5499736015624179532_n.jpg",
+      "PackagePath": "staticwebassets\\images\\333773358_1489091114832716_5499736015624179532_n.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\334887371_1021191045530198_1249626245126590267_n.jpg",
+      "PackagePath": "staticwebassets\\images\\334887371_1021191045530198_1249626245126590267_n.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\395640432_1051596576187192_4652447510805245650_n.jpg",
+      "PackagePath": "staticwebassets\\images\\395640432_1051596576187192_4652447510805245650_n.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\3ga.jpg",
+      "PackagePath": "staticwebassets\\images\\3ga.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\Bạc-xỉu.jpg",
+      "PackagePath": "staticwebassets\\images\\Bạc-xỉu.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\DACS.jpg",
+      "PackagePath": "staticwebassets\\images\\DACS.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\OIP (1).jpg",
+      "PackagePath": "staticwebassets\\images\\OIP (1).jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\OIP.jpg",
+      "PackagePath": "staticwebassets\\images\\OIP.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\R.png",
+      "PackagePath": "staticwebassets\\images\\R.png"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\Ronaldo-mo-khach-san-thu-4-co-lo-Kane-va-Sterling-qua-mat-ro-1-1625738959-690-width740height511.jpg",
+      "PackagePath": "staticwebassets\\images\\Ronaldo-mo-khach-san-thu-4-co-lo-Kane-va-Sterling-qua-mat-ro-1-1625738959-690-width740height511.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\Ronaldoaasd.jpg",
+      "PackagePath": "staticwebassets\\images\\Ronaldoaasd.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\Search.png",
+      "PackagePath": "staticwebassets\\images\\Search.png"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\avt.jpg",
+      "PackagePath": "staticwebassets\\images\\avt.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\ca-phe-den-da.png",
+      "PackagePath": "staticwebassets\\images\\ca-phe-den-da.png"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\cach-pha-sua-chua-ca-phe.jpeg",
+      "PackagePath": "staticwebassets\\images\\cach-pha-sua-chua-ca-phe.jpeg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\hinh-anh-ly-cafe-capuchino_50.jpg",
+      "PackagePath": "staticwebassets\\images\\hinh-anh-ly-cafe-capuchino_50.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\shoppingcart.png",
+      "PackagePath": "staticwebassets\\images\\shoppingcart.png"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\tải xuống.jpg",
+      "PackagePath": "staticwebassets\\images\\tải xuống.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\tra-dao-cam-sa-927c.jpg",
+      "PackagePath": "staticwebassets\\images\\tra-dao-cam-sa-927c.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\uong-cafe-co-tac-dung-gi-01.jpg",
+      "PackagePath": "staticwebassets\\images\\uong-cafe-co-tac-dung-gi-01.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\z5358520384933_38b01b86143c35fa0ae35816e257352c.jpg",
+      "PackagePath": "staticwebassets\\images\\z5358520384933_38b01b86143c35fa0ae35816e257352c.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\z5358520722330_3417998f9fffcf35c9bcb9615690b3dd.jpg",
+      "PackagePath": "staticwebassets\\images\\z5358520722330_3417998f9fffcf35c9bcb9615690b3dd.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\z5358520853150_58d2db8027da7e4c8df080e3b83789d8.jpg",
+      "PackagePath": "staticwebassets\\images\\z5358520853150_58d2db8027da7e4c8df080e3b83789d8.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\z5358520950795_07199fe68c270af581b9c92ff8e4c686.jpg",
+      "PackagePath": "staticwebassets\\images\\z5358520950795_07199fe68c270af581b9c92ff8e4c686.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\z5358521028205_c024969d8b9ee4a096e1d6299ea56665.jpg",
+      "PackagePath": "staticwebassets\\images\\z5358521028205_c024969d8b9ee4a096e1d6299ea56665.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\images\\z5358540871751_27dbe86dbb16e0f05ab0e0e94c03c84f.jpg",
+      "PackagePath": "staticwebassets\\images\\z5358540871751_27dbe86dbb16e0f05ab0e0e94c03c84f.jpg"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\HTML\\Lab04_TruongThanhDat\\Lab04_TruongThanhDat\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Lab04_TruongThanhDat.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Lab04_TruongThanhDat.props",
+      "PackagePath": "build\\Lab04_TruongThanhDat.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Lab04_TruongThanhDat.props",
+      "PackagePath": "buildMultiTargeting\\Lab04_TruongThanhDat.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Lab04_TruongThanhDat.props",
+      "PackagePath": "buildTransitive\\Lab04_TruongThanhDat.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

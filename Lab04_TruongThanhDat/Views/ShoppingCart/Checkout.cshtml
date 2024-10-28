@@ -1,0 +1,42 @@
+﻿@model Order
+@{
+    Layout = "";
+
+}
+<h2>Checkout</h2>
+
+
+<div class="table-responsive">
+    <form action="/ShoppingCart/CreatePaymentUrl" id="frmCreateOrder" method="POST">
+        <div class="form-group">
+            <label for="ordertype">Loại sản phẩm </label>
+            <select name="OrderType" id="ordertype" class="form-control">
+                <option value="electric">Trà</option>
+                <option value="fashion">Cà phê</option>
+
+            </select>
+        </div>
+        <br />
+        <div class="form-group">
+            <label asp-for="ShippingAddress">Địa Chỉ Giao Hàng</label>
+            <input asp-for="ShippingAddress" class="form-control" />
+        </div>
+        <br />
+        <div class="form-group">
+            <label for="Amount">Số tiền</label>
+            <input class="form-control"
+                   id="Amount"
+                   name="Amount"
+                   type="text"
+                   value="">
+
+        </div>
+        <br />
+        <div class="form-group">
+            <label asp-for="Notes">Ghi Chú</label>
+            <textarea asp-for="Notes" class="form-control"></textarea>
+        </div>
+        <br />
+        <button type="submit" class="btn btn-primary">Thanh toán (Checkout)</button>
+    </form>
+</div>

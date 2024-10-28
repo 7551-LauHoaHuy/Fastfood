@@ -1,0 +1,103 @@
+﻿
+@page
+@model LoginModel
+
+@{
+	ViewData["Title"] = "Log in";
+}
+
+<section class="vh-100 gradient-custom">
+	<form id="account" method="post">
+		<div class="container py-5 h-100">
+			<div class="row d-flex justify-content-center align-items-center h-100">
+				<div class="col-12 col-md-8 col-lg-6 col-xl-5">
+					<div class="card bg-dark text-white" style="border-radius: 1rem;">
+						<div class="card-body p-5 text-center">
+							<h2>Đăng Nhập</h2>
+							<div class="mb-md-5 mt-md-4 pb-5">
+
+								<div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+								<div class="form-floating mb-3">
+									<input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+									<label asp-for="Input.Email" class="form-label">Email</label>
+									<span asp-validation-for="Input.Email" class="text-danger"></span>
+								</div>
+
+								<div class="form-floating mb-3">
+									<input asp-for="Input.Password" type="password" class="form-control" id="passwordField" autocomplete="current-password" aria-required="true" placeholder="Mật Khẩu" />
+									<label asp-for="Input.Password" class="form-label">Mật Khẩu</label>
+									<span asp-validation-for="Input.Password" class="text-danger"></span>
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="showPassword">
+										<label class="form-check-label" for="showPassword"></label>
+									</div>
+								</div>
+								<div>
+									<button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Đăng Nhập</button>
+								</div>
+
+								<div style="margin-top: 25px">
+									<p>
+										<a id="forgot-password" asp-page="./ForgotPassword">Quên mật khẩu?</a>
+									</p>
+								</div>
+
+								<div class="d-flex justify-content-center text-center mt-4 pt-1">
+									<a href="#!" class="text-white"><i class="fa-brands fa-facebook fa-lg"></i></a>
+									<a href="#!" class="text-white"><i class="fa-brands fa-twitter fa-lg mx-4 px-2"></i></a>
+									<a href="#!" class="text-white"><i class="fa-brands fa-google fa-lg"></i></a>
+								</div>
+
+							</div>
+
+							<div>
+								<p class="mb-0">
+									Bạn chưa có tài khoản? <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Đăng Ký</a>
+								</p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+	<div class="col-md-6 col-md-offset-2">
+		@if ((Model.ExternalLogins?.Count ?? 0) != 0)
+		{
+			<section>
+				<h4>Sử dụng dịch vụ</h4>
+				<hr />
+				<form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+					<div>
+						<p>
+							@foreach (var provider in Model.ExternalLogins!)
+							{
+								<button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Dang nhap bang @provider.DisplayName account">@provider.DisplayName</button>
+							}
+						</p>
+					</div>
+				</form>
+			</section>
+		}
+	</div>
+</section>
+
+
+@section Scripts {
+	<script>
+		const passwordField = document.getElementById('passwordField');
+		const showPasswordCheckbox = document.getElementById('showPassword');
+
+		showPasswordCheckbox.addEventListener('change', function () {
+			if (this.checked) {
+				passwordField.type = 'text';
+			} else {
+				passwordField.type = 'password';
+			}
+		});
+	</script>
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}
